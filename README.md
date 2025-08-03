@@ -66,7 +66,8 @@ It represents a significant evolution from an earlier [OpenCV-based Facial Recog
     - **Important**: Name each image file with the person's name (e.g., `Harsha_Vardhan.jpg`, `John_Doe.png`). The filename will be used as the person's ID in the attendance sheet.
 
 5.  **Configure the ESP32-CAM**:
-    - Set up your ESP32-CAM to stream video on your local network.
+    - Set up your ESP32-CAM to stream video on your local network. Use the Webserver_attendance file in this repository.
+    - Run the .ino file in the arduino ide using your ESP-32 CAM module(Ai-thinker model is preferred).
     - Find the IP address of your ESP32-CAM.
     - Open the main Python script and update the `ESP32_CAM_URL` variable with your camera's streaming URL.
       ```python
