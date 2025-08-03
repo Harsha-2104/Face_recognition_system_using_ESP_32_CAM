@@ -681,7 +681,7 @@ void startCameraServer() {
   }
 
 #if defined(LED_GPIO_NUM)
-  led_duty = 100;  // Set LED intensity to 100
+  led_duty = 40;  // Set LED intensity to 100
 #endif
 
   httpd_uri_t index_uri = {
