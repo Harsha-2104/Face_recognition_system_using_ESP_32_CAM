@@ -115,4 +115,4 @@ It represents a significant evolution from an earlier [OpenCV-based Facial Recog
 
 ##  Live Demo
 
-Click [Here]() to see my Linked In post for live demo.
+Click [Here](https://www.linkedin.com/posts/harsha-yanapu-392a11253_esp32-facerecognition-embeddedsystems-activity-7358090854097440768-UiY1) to see my Linked In post for live demo.
