@@ -116,3 +116,11 @@ It represents a significant evolution from an earlier [OpenCV-based Facial Recog
 ##  Live Demo
 
 Click [Here](https://www.linkedin.com/posts/harsha-yanapu-392a11253_esp32-facerecognition-embeddedsystems-activity-7358090854097440768-UiY1) to see my Linked In post for live demo.
+
+---
+
+##  License
+
+This project is for academic purposes. Modify and use freely with proper credit to the original authors.
+
+---
