@@ -13,7 +13,7 @@ from openpyxl import Workbook, load_workbook
 ESP32_CAM_URL = "http://192.168.189.98:81/stream"
 LANDMARKS_PREDICTOR_PATH = 'shape_predictor_68_face_landmarks.dat'
 KNOWN_FACES_DIR = 'faces'
-ATTENDANCE_EXCEL_FILE = 'attendance_excel.xlsx'
+ATTENDANCE_EXCEL_FILE = 'attendence_excel.xlsx'
 
 LIVENESS_TIMEOUT = 5  # Seconds to perform all actions after a blink
 
@@ -274,3 +274,4 @@ if __name__ == "__main__":
     wb.save(ATTENDANCE_EXCEL_FILE)
     video_capture.release()
     cv2.destroyAllWindows()
+
