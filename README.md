@@ -63,11 +63,16 @@ It represents a significant evolution from an earlier [OpenCV-based Facial Recog
 4.  **Create the Known Faces Directory**:
     - Create a folder named `faces` in the project directory.
     - Inside the `faces` folder, add images of the individuals you want the system to recognize.
-    - **Important**: Name each image file with the person's name (e.g., `Harsha_Vardhan.jpg`, `John_Doe.png`). The filename will be used as the person's ID in the attendance sheet.
+    - **Important**: Name each image file with the person's name (e.g., `Harsha_yanapu.jpg`, `N200428.png`). The filename will be used as the person's ID in the attendance sheet.
+      ![reference image](faces_ref.png)
+    
 
 5.  **Configure the ESP32-CAM**:
+
     - Set up your ESP32-CAM to stream video on your local network. Use the Webserver_attendance file in this repository.
-    - Run the .ino file in the arduino ide using your ESP-32 CAM module(Ai-thinker model is preferred).
+    - Run the Webserver_attendance.ino file in the arduino ide using your ESP-32 CAM module(Ai-thinker model is preferred).
+      
+      ![images](https://github.com/user-attachments/assets/d0d13310-974b-4497-8fdb-912378ccade4)
     - Find the IP address of your ESP32-CAM.
     - Open the main Python script and update the `ESP32_CAM_URL` variable with your camera's streaming URL.
       ```python
@@ -105,3 +110,9 @@ It represents a significant evolution from an earlier [OpenCV-based Facial Recog
 
 5.  **Quit the Program**:
     Press the `q` key with the video window in focus to stop the script. The Excel file will be saved automatically.
+
+---
+
+##  Live Demo
+
+Click [Here]() to see my Linked In post for live demo.
